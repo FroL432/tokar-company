@@ -1,12 +1,8 @@
 {
-  "name": "staketab-landing",
+  "name": "tocar-company",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@staketab/lib": "^1.0.971",
-    "@testing-library/jest-dom": "^5.13.0",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
     "axios": "^0.21.1",
     "classnames": "^2.3.1",
     "node-sass": "^4.14.1",
@@ -44,5 +40,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FroL432/tokar-company.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FroL432/tokar-company/issues"
+  },
+  "homepage": "https://github.com/FroL432/tokar-company#readme"
 }
