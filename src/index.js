@@ -1,11 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./assets/css/reset.css";
+import "./assets/styles/reset.css";
 import "./assets/styles/global.sass";
-import "./index.sass";
+
+import MainPage from "./pages/MainPage";
 
 function App() {
-  return <h1>Hello World!</h1>;
+  return (
+    <div>
+      <MainPage />
+    </div>
+  );
 }
 
 ReactDOM.render(<App />, document.getElementById("root"));
