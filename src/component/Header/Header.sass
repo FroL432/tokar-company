@@ -5,6 +5,113 @@
     background: #FFFBF7
 
 .wrapper
-    +montserratLight
-    text-align: center
+    padding: 20px 0 30px
+    display: flex
+    flex-direction: column
+
+.rowTop
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+
+.logo
+    display: flex
     margin-top: 20px
+
+.logoImg
+    width: 255px
+    height: 36px
+
+.logoDesc
+    +montserratSemiBold(13px)
+    width: 255px
+    height: 36px
+    margin-left: 30px
+
+.social
+    margin-left: 34px
+    margin-top: 11px
+    p
+        +montserratSemiBold
+        width: 140px
+.icons
+    display: flex
+    margin-top: 4px
+    img
+        margin-right: 4px
+
+.phone
+    margin-left: 40px
+    margin-top: 18px
+    text-align: right
+    a
+        +montserratBold
+    p
+        +montserratRegular
+        margin-top: 7px
+        width: 200px
+
+.btn
+    margin-left: 27px
+    margin-top: 2px
+    display: flex
+    flex-direction: column
+    align-items: center
+    span
+        +montserratRegular(11px)
+        margin-top: 7px
+
+.flag
+    margin-top: 17px
+    margin-left: 25px
+    width: 35px
+
+.arrowBottom
+    margin-left: 6px
+
+
+.rowBot
+    margin-top: 36px
+
+.items
+    +montserratBold(16px)
+    line-height: 146.19%
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    &__brow
+        display: flex
+        color: #fff
+        background: #3D1E19
+        box-shadow: 0px 0px 20px rgba(43, 42, 40, 0.2)
+        border-radius: 8px
+        .item
+            padding: 25px 60px
+    &__dark
+        display: flex
+        .item
+            padding: 25px 0 25px 84px
+
+
+
+
+
+    
+
+
+
+
+// .item-brow
+//     display: flex
+//     width: 620px
+//     justify-content: space-around
+//     align-items: center
+//     color: #fff
+//     background: #3D1E19
+//     box-shadow: 0px 0px 20px rgba(43, 42, 40, 0.2)
+// .item-dark
+//     display: flex
+//     width: 620px
+//     justify-content: space-around
+//     align-items: center
+
