@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <div className="header">
       <div className="container">
-        <div className="wrapper">
+        <div className="header__wrapper">
           <div className="rowTop">
             <div className="logo">
               <img src={LogoTokar} alt="logo" className="logoImg" />
@@ -26,9 +26,15 @@ export default function Header() {
             <div className="social">
               <p>Связаться напрямую:</p>
               <div className="icons">
-                <img src={Telegram} alt="logo" className="telegram" />
-                <img src={WhatsApp} alt="logo" className="whatsApp" />
-                <img src={Viber} alt="logo" className="viber" />
+                <a href="#">
+                  <img src={Telegram} alt="logo" className="telegram" />
+                </a>
+                <a href="">
+                  <img src={WhatsApp} alt="logo" className="whatsApp" />
+                </a>
+                <a href="">
+                  <img src={Viber} alt="logo" className="viber" />
+                </a>
               </div>
             </div>
 
@@ -49,16 +55,28 @@ export default function Header() {
           </div>
 
           <div className="rowBot">
-            <div className="items">
-              <div className="items__brow">
-                <div className="item">Жилое</div>
-                <div className="item">Коммерческое</div>
-                <div className="item">Садовое</div>
+            <div className="nav">
+              <div className="links__brow">
+                <a href="#" className="link">
+                  Жилое
+                </a>
+                <a href="#" className="link">
+                  Коммерческое
+                </a>
+                <a href="#" className="link">
+                  Садовое
+                </a>
               </div>
-              <div className="items__dark">
-                <div className="item">О компании</div>
-                <div className="item">Наши работы</div>
-                <div className="item">Контакты</div>
+              <div className="links__dark">
+                <a href="#" className="link">
+                  О компании
+                </a>
+                <a href="#" className="link">
+                  Наши работы
+                </a>
+                <a href="#" className="link">
+                  Контакты
+                </a>
               </div>
             </div>
           </div>
